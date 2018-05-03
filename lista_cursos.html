@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <title>Faculdade Impacta</title>
+    
+</head>
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="candidatos.html">Candidatos</a>
+        <a href="cadastro_alunos.html">Cadastro de Alunos</a>
+        <a href="lista_cursos.html"  class="active">Lista dos cursos</a>
+        <a href="#about">Smartclas</a>
+        <a href="#about">Eventos</a>
+        <a href="#about">Depoimentos</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    
+<center>    
+<div class="container">
+    <h1 id="textList">Lista dos Cursos</h1>
+    <table class="tabela">
+        <tr>
+            <td class="nomeCurso">Nome do curso</td>
+        </tr>
+        
+        <tr>
+            <td>
+                <a href="admin.html">Administração de Empresas</a>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <a href="ads.html">Analise e Desenvolvimento de Sistemas</a>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <a href="bd.html">Banco de Dados</a>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <a href="gti.html">Gestão de Tecnologia da Informação</a>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <a href="jogos_digitais.html">Jogos Digitais</a>
+            </td>
+        </tr>
+        
+    </table>
+
+</div>
+</center>
+
+
+<script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+        }
+    </script>
+
+<center>
+    <div class="footer">Site 2018 rodapé da página</footer></div>
+</center>
+
+
+</body>
+</html>
